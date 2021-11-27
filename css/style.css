@@ -1,0 +1,139 @@
+.hidden {
+  display: none;
+}
+
+body {
+  height: 95vh;
+  width: 98vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#bodydiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clockdiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#clock {
+  color: white;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+#logindiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#input1 {
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+#input1::placeholder {
+  color: white;
+}
+
+#input2 {
+  width: 80px;
+  height: 50px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: white;
+  color: black;
+}
+
+#input3 {
+  width: 400px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+
+#input3::placeholder {
+  color: white;
+}
+
+#greeting {
+  margin-top: 0px;
+  color: white;
+}
+
+#quote {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#quote span:first-child {
+  color: white;
+  font-size: 20px;
+}
+
+#quote span:last-child {
+  color: white;
+  font-size: 15px;
+}
+
+#weatherdiv {
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#weather {
+  color: white;
+}
+
+#temp {
+  color: white;
+}
+#city {
+  color: white;
+}
+
+#greetingdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tododiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#tododiv ul {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
